@@ -5,29 +5,10 @@ body, html {
   overflow: hidden; /* Para evitar rolagem se a imagem for maior */
 }
 
-.background {
+.App {
   background: url(https://cmsassets.rgpub.io/sanity/images/dsfx7636/news_live/97511f398b0a2c320fd80766e8b006c5bfcac894-1920x1080.jpg) no-repeat center center;
   background-size: cover;
   position: fixed; /* Mantém a imagem no fundo */
   width: 100%;
   height: 100%;
-  z-index: -1; /* Fica abaixo do conteúdo */
-}
-
-.overlay {
-  background-color: rgba(0, 0, 0, 0.8); /* Preto com 50% de opacidade */
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0; /* Fica acima do fundo, mas abaixo do conteúdo */
-}
-
-.content {
-  position: relative;
-  color: whitesmoke;
-  padding: 20px; /* Para dar espaço ao texto */
-  text-align: center;
-  z-index: 1; /* Fica acima da camada de overlay */
 }

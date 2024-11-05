@@ -1,0 +1,52 @@
+#Homepage {
+    width: 100vw;
+    height: 100vh;
+}
+#Homepage>menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 100%;
+    height: 75px;
+    padding-left: 1rem;
+    background-color: rgba(26, 23, 44, 0.4);
+    animation: brightness 3s infinite;
+    user-select: none;
+}
+#Homepage>menu>img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    transition: filter .4s;
+}
+
+#Homepage>menu>img:hover {
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.788)) invert(75%);
+}
+
+
+#Homepage>menu>#Homepage_block>p {
+    font-size: .76em;
+    color: rgb(173, 173, 173);
+}
+
+#Homepage>section {
+    width: 100%;
+    height: calc(100% - 75px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@keyframes brightness {
+    0%, 100% {
+        background-color: rgba(26, 23, 44, 0.54);
+        
+    }
+    50% {
+        background-color: rgba(26, 23, 44, 0.46);
+        box-shadow: 0px 0px 15px rgba(26, 23, 44, 0.54);
+    }
+}
