@@ -11,6 +11,13 @@ const Homepage = () => {
                     <p>Aqui começa sua história no rift</p>
                 </div>
             </menu>
+            <article>
+                <p>
+                    Torneio das lendas foi criado seguindo a política
+                    do “Lenga-Lenga Jurídico” da Riot Games com recursos pertencentes
+                    à Riot Games. A Riot Games não endossa ou patrocina este projeto.
+                </p>
+            </article>
             <section>
                 <Homepage_interface />
             </section>
