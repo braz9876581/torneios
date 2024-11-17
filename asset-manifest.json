@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/torneios/static/css/main.6d27212e.css",
-    "main.js": "/torneios/static/js/main.825c741a.js",
+    "main.css": "/torneios/static/css/main.68b2a794.css",
+    "main.js": "/torneios/static/js/main.6ca2bd8b.js",
     "static/js/453.6387e458.chunk.js": "/torneios/static/js/453.6387e458.chunk.js",
     "index.html": "/torneios/index.html",
-    "main.6d27212e.css.map": "/torneios/static/css/main.6d27212e.css.map",
-    "main.825c741a.js.map": "/torneios/static/js/main.825c741a.js.map",
+    "main.68b2a794.css.map": "/torneios/static/css/main.68b2a794.css.map",
+    "main.6ca2bd8b.js.map": "/torneios/static/js/main.6ca2bd8b.js.map",
     "453.6387e458.chunk.js.map": "/torneios/static/js/453.6387e458.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d27212e.css",
-    "static/js/main.825c741a.js"
+    "static/css/main.68b2a794.css",
+    "static/js/main.6ca2bd8b.js"
   ]
 }
